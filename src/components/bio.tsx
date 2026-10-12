@@ -7,7 +7,7 @@ export default function Bio(){
             <div className="flex-row gap-2 items-center justify-center p-8">
                 
                 <div className="flex-row p-4 ">
-                    <p>New York based full stack developer and game designer with a passion for sound</p>
+                    <p className="para">New York based full stack developer and game designer with a passion for sound</p>
                     <div className="flex-row">
                         <a href="https://github.com/Frankie-Pettigrew/" className="text-red-400 hover:text-blue-400 p-4">Github</a>
                         <a href="https://soundcloud.com/stuttersprite" className="text-red-400 hover:text-blue-400 p-4">Soundcloud</a>
