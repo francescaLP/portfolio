@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 
 export interface ItemProps {
   name: string;
@@ -22,12 +22,12 @@ export default function WorkItem(props) {
     return (
       <div
         onClick={handleClick}
-        className="workItem text-center justify-items-center justify-content-center h-100 p-4 m-4 rounded-xl hover:drop-shadow-xl"
+        className="workItem text-center items-center justify-center content-center h-100 p-4 m-4 rounded-xl hover:drop-shadow-xl"
         
       >
         <h2>{props.name}</h2>
         <img
-          className="scale-with-grid aspect-auto w-sm"
+          className="justify-center aspect-auto w-sm"
           src={props.pict}
         />
         <h3>{props.year}</h3>
@@ -41,7 +41,7 @@ export default function WorkItem(props) {
     return (
       <div
         onClick={handleClick}
-        className="text-center workItem col-span-3 justify-center items-center content-center transition p-4 m-4 rounded-xl hover:drop-shadow-xl"
+        className="text-center justify-center workItem col-span-3 items-center content-center transition p-4 m-4 rounded-xl hover:drop-shadow-xl"
         
       >
         <h2>{props.name}</h2>
