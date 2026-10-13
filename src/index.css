@@ -25,3 +25,8 @@ p {
 a {
   color:#f5e6e8;
 }
+
+.work-container{
+  flex:auto;
+  justify-self: center;
+}

@@ -6,12 +6,12 @@ export default function Works() {
   function displayWorks() {
     return (
       <div
-        className="py-8 works grid lg:grid-cols-4 flex justify-center justify-items-center"
+        className="py-8 works grid md:grid-cols-4 justify-center items-center"
         id="works"
       >
         {items.map((i) => {
           return (
-            <WorkItem name={i.name} longer={i.longer} pict={i.pict} year={i.year} desc={i.desc} key={i.index} />
+            <WorkItem className="work-container" name={i.name} longer={i.longer} pict={i.pict} year={i.year} desc={i.desc} key={i.index} />
           );
         })}
       </div>
