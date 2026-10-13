@@ -10,7 +10,7 @@ export const items: ItemProps[] = [
     name: "The Brooklyn Strategist",
     year: '2026',
     desc: "Redesigned website for The Brooklyn Strategist",
-    longer:"While working at The Brooklyn Strategist, I noticed the company website was woefully out of date. ",
+    longer:"While working at The Brooklyn Strategist, I noticed the company website was woefully out of date. I did a full redesign of the site after doing qualitative user research. ",
     pict: bstrat,
     index: 0,
   },
