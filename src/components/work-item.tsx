@@ -1,3 +1,4 @@
+import { devNull } from "os";
 import { useState, useRef } from "react";
 
 export interface ItemProps {
@@ -16,7 +17,7 @@ export interface dProps {
 
 export default function WorkItem(props) {
   const [collapsed, setCollapsed] = useState(true);
-  const scrollThis = useRef(null);
+  const scrollThis = useRef(devNull);
   function renderCollapsed() {
     return (
       <div
@@ -35,7 +36,7 @@ export default function WorkItem(props) {
       </div>
     );
   }
-  
+
   function renderUnrolled() {
     return (
       <div
@@ -58,7 +59,9 @@ export default function WorkItem(props) {
   function handleClick() {
     setCollapsed(!collapsed);
     try{
-      scrollThis.current.scrollIntoView();
+      if(scrollThis != null){
+        scrollThis.current.scrollIntoView();
+      }
     } catch {
       alert('broke')
     }
