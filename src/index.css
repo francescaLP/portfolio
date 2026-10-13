@@ -3,4 +3,25 @@
 html{
   scroll-behavior: smooth;
   scrollbar-width: none;
+  background-color: #948b79;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+p {
+  color:white;
+  
+}
+
+.workItem {
+  background-color:#762c2c;
+  color:#f5e6e8;
+}
+
+a {
+  color:#f5e6e8;
 }
