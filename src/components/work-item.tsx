@@ -22,12 +22,12 @@ export default function WorkItem(props) {
     return (
       <div
         onClick={handleClick}
-        className="workItem text-center items-center justify-center content-center h-100 p-4 m-4 rounded-xl hover:drop-shadow-xl"
+        className="workItem text-center h-100 p-4 m-4 rounded-xl hover:drop-shadow-xl"
         
       >
         <h2>{props.name}</h2>
         <img
-          className="justify-center aspect-auto w-sm"
+          className="aspect-auto w-sm"
           src={props.pict}
         />
         <h3>{props.year}</h3>
@@ -41,7 +41,7 @@ export default function WorkItem(props) {
     return (
       <div
         onClick={handleClick}
-        className="text-center justify-center workItem col-span-3 items-center content-center transition p-4 m-4 rounded-xl hover:drop-shadow-xl"
+        className="text-center workItem col-span-3 items-center content-center transition p-4 m-4 rounded-xl hover:drop-shadow-xl"
         
       >
         <h2>{props.name}</h2>

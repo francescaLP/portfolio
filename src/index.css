@@ -1,29 +1,32 @@
 @import "tailwindcss";
 
+
+
 html{
   scroll-behavior: smooth;
   scrollbar-width: none;
-  background-color: #948b79;
+  background-color: #ffffff;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 h1 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ff00ff
 }
 
 
 p {
-  color:white;
+  color:black;
   
 }
 
 .workItem {
-  background-color:#762c2c;
-  color:#f5e6e8;
+  background-color:#ff00ff;
+  color:#ffffff;
 }
 
 a {
-  color:#f5e6e8;
+  color:#00ffff;
 }
 
 .work-container{
